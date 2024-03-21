@@ -1,6 +1,8 @@
 name: test1 workflow
 on:
-  workflow_call:
+  push:
+    branches:
+      - main
 
 jobs:
   Test:
